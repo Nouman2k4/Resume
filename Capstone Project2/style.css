@@ -1,0 +1,47 @@
+#name{
+    height: 720px;
+    background: url(./background-first.png);
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+    font-family: 'Lobster', cursive;
+}
+.c1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.c2{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+}
+#image{
+    
+    display: inline-flex;
+    flex-basis: column;
+}
+#image>.c1{
+   justify-content: center;
+   font-size: large;
+    margin-left:5.5%;
+    border: 10px solid black;
+    margin-bottom: 0px;
+}
+#image>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 70%;   
+}
+span{
+    font-weight: bold;
+}
+.marketing{
+    background-color: lightblue;
+}
+#skills>span{
+    font-size: 50px;
+    display: block;
+    justify-content: center;
+    margin-left: 5.5%;
+}
